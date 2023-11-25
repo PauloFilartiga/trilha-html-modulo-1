@@ -7,56 +7,51 @@
     <title>Página - Módulo I - Primeiros Passos com HTML</title>
 </head>
 <body>
-    <h1>Módulo 1 - Primeiros Passos com HTML</h1>
+    <h1 id="inicio">Módulo 1 - Primeiros Passos com HTML</h1>
     <hr />
 
     <h2>Índice</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste índice você deve colocar os tópicos que mais entendeu. Estes apenas são sugestões.</p>
     <ul>
-        <li><a href="#">História dos computadores</a></li>
-        <li><a href="#">O que são <i>Clients</i>?</a></li>
-        <li><a href="#">O que são <i>Servers</i>?</a></li>
-        <li><a href="#">Como é uma estrutura básica de um HTML?</a></li>
-        <li><a href="#">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
-        <li><a href="#">Links de referências</a></li>
+        <li><a href="#clients">O que são <i>Clients</i>?</a></li>
+        <li><a href="#servers">O que são <i>Servers</i>?</a></li>
+        <li><a href="#Ordenadas-não-ordenadas">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+        <li><a href="#links">Links de referências</a></li>
     </ul>
 
-    <h2>História dos computadores</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    
+    <h2 id="clients">O que são <i>Clients</i>? </h2>
+    <small><a href="#inicio">(voltar)</a></small>
+    <p>Na arquitetura o <strong><u>cliente</u></strong> é um <i>sistema</i> ou <i>dispositivo</i> que 
+        solicita serviços ou recursos de um servidor.</p> 
 
-    <h2>O que são <i>Clients</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
 
-    <h2>O que são <i>Servers</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="servers">O que são <i>Servers</i>?</h2>
+    <small><a href="#inicio">(voltar)</a></small>
+    <p>Os <strong><u>servidores</u></strong> são sistemas dedicados a fornecer serviços ou recursos solicitados pelos <strong><u>clientes</u></strong>.
+        Eles estão sempre ligados e prontos para atender solicitações. Exemplos de servidores incluem <i>servidores web</i>, <i>servidores de banco de dados</i> 
+        <i><del>e servidores de email.</del><sub>1</sub></i></p>
 
-    <h2>Como é uma estrutura básica de um HTML?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+        <p><blockquote>
+            <i><mark>Em resumo, a arquitetura cliente-servidor é fundamental na construção de sistemas distribuídos!</mark></i>
+        </blockquote></p>
 
-    <h2>Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="Ordenadas-não-ordenadas">Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
+    <small><a href="#inicio">(voltar)</a></small>
+    <p><strong><u>Listas ordenadas</u></strong><sup>1</sup> e <strong><u>não ordenadas</u></strong><sup>2</sup> são duas formas de organizar informações em <strong>HTML</strong>.
+    <ol>
+        <li><i>Listas ordenadas</i>: <strong>("ol")</strong> Itens numerados, indicando uma ordem específica.
+        <li><i>Listas não ordenadas</i>: <strong>("ul")</strong> Itens sem uma ordem específica, geralmente marcados com pontos ou outros símbolos.</li>
+    </ol>
+        Ambas as listas <strong>("ol" e "ul")</strong> usam a tag <strong>"li"</strong> para representar cada item na lista. A escolha entre listas ordenadas e não ordenadas depende do contexto e da preferência.</p>
 
-    <h2>Links de referências</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Coloque links para outras páginas que falam sobre estes assuntos. Não esquece de que precisa abrir em outra aba/janela do navegador.</p>
+    <h2 id="links"><abbr title="BRASIL e NORUEGA">Links de referências</abbr></h2>
+    <small><a href="#inicio">(voltar)</a></small>
+    <p>Abaixo links de sites que me ajudaram a elencar essas referências.
     <ul>
-        <li><a href="#">http://dio.me</a></li>
-        <li><a href="#">http://w3c.org</a></li>
+        <li><a href="http://dio.me" title="Clique aqui!" target="_blank"> http://dio.me</a></li>
+        <li><a href="http://w3c.org" title="Clique aqui!" target="_blank">http://w3c.org</a></li>
     </ul>
+    <h5><font face="Verdana"></font><i> *Não encontrei informações seguras de que <u>servidor de email</u> é uma forma separada de Server.</i><sub>1</sub></font> <br /></h5>
 
 </body>
 </html>
